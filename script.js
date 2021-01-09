@@ -148,7 +148,7 @@ function populateFile(userInput) {
 
     usersLicense = "";
     appLicenses.forEach((license) => {
-        usersLicense += `${licenseLib[license]}, `;
+        usersLicense += `${licenseLib[license]} `;
     });
     console.log(usersLicense);
 
